@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #1fad8a;
+}
+
+.signup-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:70vh;
+    flex-direction: column;
+    margin-top:4rem;
+}
+.h1{
+   
+    margin-bottom: 3rem;
+    background-color: transparent;
+    color:#1fad8a;
+    font-size: 2rem;
+
+}
+
+.form{
+   
+    width:50%;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .9rem;
+    background-color: white;
+    box-shadow: 2px 2px rgb(77, 70, 70);
+    
+}
+.username{
+    height:2rem;
+    margin-bottom:1rem;
+    width:300px;
+    border:none;
+    border-bottom: 2px solid black;
+    outline:none;
+    background-color: transparent;
+}
+
+.phoneno{
+    height:2rem;
+    margin-bottom:1rem;
+    width:300px;
+    border:none;
+    border-bottom: 2px solid black;
+    outline:none;
+    background-color: transparent;
+}
+
+.password{
+    height:2rem;
+    margin-bottom:1rem;
+    width:300px;
+    border:none;
+    border-bottom: 2px solid black;
+    outline:none;
+    background-color: transparent;
+  
+}
+
+.input{
+    font-size: .8rem;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+.sbtn{
+    border:2px solid white;
+    background-color: #12795f;
+    width:140px;
+    height:2.5rem;
+    margin-top: 1rem;
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 1rem;
+    
+}
+
+.sbtn:hover{
+    background-color: red;
+}
+
+@media(max-width:800px){
+    .form{
+        width:70%;
+    }
+}
+
+@media(max-width:530px){
+    .form{
+        width:85%;
+    }
+}
